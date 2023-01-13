@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" version="5.0">
+  <servlet>
+    <description></description>
+    <display-name>ControladorCliente</display-name>
+    <servlet-name>ControladorCliente</servlet-name>
+    <servlet-class>Controlador.ControladorCliente</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ControladorCliente</servlet-name>
+    <url-pattern>/ControladorCliente</url-pattern>
+  </servlet-mapping>
+  <display-name>Laptop</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ControladorProducto</display-name>
+    <servlet-name>ControladorProducto</servlet-name>
+    <servlet-class>Controlador.ControladorProducto</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ControladorProducto</servlet-name>
+    <url-pattern>/ControladorProducto</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>controladorLogin</display-name>
+    <servlet-name>controladorLogin</servlet-name>
+    <servlet-class>Controlador.controladorLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>controladorLogin</servlet-name>
+    <url-pattern>/controladorLogin</url-pattern>
+  </servlet-mapping>
+</web-app>
